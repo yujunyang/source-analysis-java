@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.beans.factory.config.BeanDefinition</OriginalElement>
+  <nodes>
+    <node x="0.0" y="160.0">org.springframework.beans.factory.support.RootBeanDefinition</node>
+    <node x="378.0" y="160.0">org.springframework.beans.factory.support.ChildBeanDefinition</node>
+    <node x="203.50000000000003" y="0.0">org.springframework.beans.factory.config.BeanDefinition</node>
+    <node x="178.50000000000003" y="80.0">org.springframework.beans.factory.support.AbstractBeanDefinition</node>
+    <node x="181.00000000000003" y="160.0">org.springframework.beans.factory.support.GenericBeanDefinition</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.beans.factory.support.GenericBeanDefinition" target="org.springframework.beans.factory.support.AbstractBeanDefinition">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.beans.factory.support.AbstractBeanDefinition" target="org.springframework.beans.factory.config.BeanDefinition">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.beans.factory.support.ChildBeanDefinition" target="org.springframework.beans.factory.support.AbstractBeanDefinition">
+      <point x="0.0" y="-15.0" />
+      <point x="459.0" y="135.0" />
+      <point x="330.16666666666663" y="135.0" />
+      <point x="60.66666666666663" y="15.0" />
+    </edge>
+    <edge source="org.springframework.beans.factory.support.RootBeanDefinition" target="org.springframework.beans.factory.support.AbstractBeanDefinition">
+      <point x="0.0" y="-15.0" />
+      <point x="80.5" y="135.0" />
+      <point x="208.83333333333337" y="135.0" />
+      <point x="-60.66666666666666" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="176.5" y="55.0" />
+  <SelectedNodes>
+    <node>org.springframework.beans.factory.config.BeanDefinition</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
